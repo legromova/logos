@@ -1,0 +1,6 @@
+{
+  "name": "Logos",
+  "description": "Interactive rhetoric and argumentation trainer. Think, argue, and counter like a pro.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

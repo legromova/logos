@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-graphite: #292725;
+  --color-ivory: #F4F0E8;
+  --color-terracotta: #9A6251;
+  --color-olive: #68745A;
+  --color-gold: #C59A3A;
+  --color-antique-gray: #77736C;
+}
+
+@layer base {
+  body {
+    @apply bg-graphite text-ivory antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
