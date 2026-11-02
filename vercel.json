@@ -1,7 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "api/[...path].cjs": {
+    "api/[...path].js": {
       "includeFiles": "dist/server.cjs"
     }
   }
