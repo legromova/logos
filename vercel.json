@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/[...path].cjs": {
-      "includeFiles": ["dist/server.cjs"]
+      "includeFiles": "dist/server.cjs"
     }
   }
 }
